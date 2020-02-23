@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+  width: 1020px;
+  font-family: "Lato bold";
+ 
+}
+
+@font-face {
+  font-family: "Lato bold";
+  src: url(assets/lato/Lato-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Lato light";
+    src:url(assets/lato/Lato-Light.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Lato regular";
+    src:url(assets/lato/Lato-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Lato semibold";
+    src:url(assets/lato/Lato-Semibold.ttf) format("truetype");
+}
+
+.header {
+  position: relative;
+  
+  color: rgb(255 255 255);
+  background-color: rgb(45 48 58);
+  height: 88px;
+  border-bottom: solid #323746 6px;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  
+}
+
+.navigation__list--item {
+    font-family: "Lato regular";
+  position: absolute;
+  top: 34px;
+  height: 10px;
+  font-size: 12px;
+}
+
+.navigation__list--item:link {
+  text-decoration: none;
+  color: white;
+}
+
+
+.navigation__list--item:visited {
+    color: white;
+  }
+  .navigation__list--item:hover {
+    color: #c9605c;
+  }
+  
+
+.nav-home {
+  left: 604px;
+}
+
+.nav-services {
+  left: 670px;
+}
+
+.nav-portfolio {
+  left: 754px;
+}
+
+.nav-about {
+  left: 850px;
+}
+
+.nav-contacts {
+  left: 920px;
+}
+
+.logo {
+  position: absolute;
+  left: 33px;
+  top: 20px;
+  width: 115px;
+  height: 20px;
+}
+
+.logo__text {
+    font-family: "Lato regular";
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.logo__text--start {
+  color: #f06c64;
+}
+
+.slider {
+  height: 600px;
+  background-color: #f06c64;
+  position: relative;
+}
+
+.iphone-vertical {
+  position: absolute;
+  top: 52px;
+  left: 106px;
+}
+
+.iphone-horizontal {
+  position: absolute;
+  top: 173px;
+  left: 419px;
+}
+
+.left-arrow {
+  position: absolute;
+  left: 36px;
+  top: 280px;
+}
+.left-arrow:hover {
+background-color: black;
+}
+
+
+.right-arrow {
+  position: absolute;
+  left: 957px;
+  top: 280px;
+}
+.right-arrow:hover {
+    background-color: black;
+    }
+
+
+.services {
+    color: #666d89;
+    position: relative;
+    height: 493px;
+  background-color: #f2f2f2;
+  border-bottom: solid #ffffff 7px;
+
+}
+
+.services-title {
+  position: absolute;
+  top: 58px;
+  left: 33px;
+  height: 16px;
+  font-size: 20px;
+}
+
+.servises-text {
+    font-family: "Lato light";
+  position: absolute;
+  top: 109px;
+  left: 35px;
+  font-size: 17px;
+  width: 992px;
+  height: 30px;
+  word-spacing: 2px;
+  line-height: 32px;
+  
+}
+
+.menu-item-pen {
+  position: absolute;
+  top: 218px;
+  left: 35px;
+  height: 60px;
+  font-size: 19px;
+  
+}
+
+.menu-item-pen-head {
+    position: absolute;
+    left: 80px;
+    height: 10px;
+    width: 132px;
+    top: -4px;
+}
+
+.menu-item-pen-text {
+    font-family: "Lato light";
+    position: absolute;
+    width: 235px;
+    height: 50px;
+    top: 28px;
+    left: 80px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.menu-item-bulb {
+    position: absolute;
+    top: 218px;
+    left: 355px;
+    height: 60px;
+    font-size: 19px;
+}    
+.menu-item-bulb-head {
+    position: absolute;
+    left: 80px;
+    height: 10px;
+    width: 140px;
+    top: -4px;
+}
+.menu-item-bulb-text {
+    font-family: "Lato light";
+    position: absolute;
+    width: 235px;
+    height: 50px;
+    top: 28px;
+    left: 80px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.menu-item-heart {
+    position: absolute;
+    top: 218px;
+    left: 675px;
+    height: 60px;
+    font-size: 19px;
+}    
+.menu-item-heart-head {
+    position: absolute;
+    left: 80px;
+    height: 10px;
+    width: 180px;
+    top: -4px;
+    
+}
+.menu-item-heart-text {
+    font-family: "Lato light";
+    position: absolute;
+    width: 235px;
+    height: 50px;
+    top: 28px;
+    left: 80px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.menu-item-phone {
+    position: absolute;
+    top: 340px;
+    left: 35px;
+    height: 60px;
+}    
+.menu-item-phone-head {
+    position: absolute;
+    left: 80px;
+    height: 10px;
+    width: 160px;
+    font-size: 19px;
+    top: -4px;
+}
+.menu-item-phone-text {
+    font-family: "Lato light";
+    position: absolute;
+    width: 235px;
+    height: 50px;
+    top: 28px;
+    left: 80px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.menu-item-bubble {
+    position: absolute;
+    top: 340px;
+    left: 355px;
+    height: 60px;
+}
+.menu-item-bubble-head {
+    position: absolute;
+    left: 80px;
+    height: 10px;
+    width: 154px;
+    font-size: 19px;
+    top: -4px;
+   
+}
+.menu-item-bubble-text {
+    font-family: "Lato light";
+    position: absolute;
+    width: 235px;
+    height: 50px;
+    top: 28px;
+    left: 80px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.menu-item-star {
+    position: absolute;
+    top: 340px;
+    left: 675px;
+    height: 60px;
+}
+.menu-item-star-head {
+    position: absolute;
+    left: 80px;
+    height: 10px;
+    width: 154px;
+    font-size: 19px;
+    top: -4px;
+}
+.menu-item-star-text {
+    font-family: "Lato light";
+    position: absolute;
+    width: 235px;
+    height: 50px;
+    top: 28px;
+    left: 80px;
+    font-size: 13px;
+    line-height: 20px;
+}
