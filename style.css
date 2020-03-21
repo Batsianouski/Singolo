@@ -36,6 +36,9 @@ html {
   border-bottom: solid #323746 6px;
 }
 
+
+
+
 .navigation__list1 {
   display: flex;
   justify-content: space-between;
@@ -55,6 +58,18 @@ html {
   text-decoration: none;
   color: white;
 }
+
+
+a.active {
+
+  color: #c9605c;
+}
+
+a:not(.active):hover {
+  cursor: pointer;
+  color: #c9605c;
+}
+
 
 
 .navigation__list1--item:visited {
@@ -84,6 +99,7 @@ html {
 .nav-contacts {
   left: 925px;
 }
+
 
 .logo1 {
   position: absolute;
@@ -995,3 +1011,15 @@ filter: invert(100%);
 .linkedin4:hover {
 filter: invert(100%);
 }
+
+
+
+
+
+
+
+
+
+/* FOR USE IN JS */
+
+
